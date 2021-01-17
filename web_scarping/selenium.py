@@ -12,10 +12,6 @@ driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), c
 
 def Scrapping(str):
 
-	PATH ="C:\Program Files (x86)\chromedriver.exe"
-
-	driver =webdriver.Chrome(PATH)
-
 	driver.get("https://medium.com/search?q="+str) 
 	elements=driver.find_elements_by_class_name("graf--title")
 	output=[]
