@@ -26,7 +26,7 @@ SECRET_KEY = 'ijxtud7i1x)+s(d=y9$%pwdpvq1ms+x0fdtm6n74qhlbf^&zve'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['gocomet-assignment-1.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['goco-vaish.herokuapp.com','127.0.0.1']
 
 
 # Application definition
