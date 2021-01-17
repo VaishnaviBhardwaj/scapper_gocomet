@@ -11,6 +11,9 @@ def Scrapping(str):
 	chrome_options.add_argument("--disable-dev-shm-usage")
 	chrome_options.add_argument("--no-sandbox")
 	driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
+	# PATH ="C:\Program Files (x86)\chromedriver.exe"
+
+	# driver =webdriver.Chrome(PATH)
 
 	
 

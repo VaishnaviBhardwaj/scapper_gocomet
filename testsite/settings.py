@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'ijxtud7i1x)+s(d=y9$%pwdpvq1ms+x0fdtm6n74qhlbf^&zve'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['gocomet-assignment-1.herokuapp.com','127.0.0.1']
 
@@ -126,4 +126,4 @@ STATIC_ROOT= os.path.join(BASE_DIR,'staticfiles')
 STATIC_URL = '/static/'
 STATICFILES_DIRS=(os.path.join(BASE_DIR,'static'),)
 
-#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+#   STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
