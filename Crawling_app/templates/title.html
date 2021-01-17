@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table,th, td {
+  border: 1px solid black;
+  padding: 15px;
+  text-align: left;
+
+}
+ th {
+        background-color: blue;
+        color: White;
+        
+      }
+
+td {
+        text-align: center;
+        border: 1px solid black;
+        padding: 10px;
+       
+      }
+}
+</style>
+</head>
+<body><center>
+<h1>SEARCH RESUlT</h1>
+</center>
+</div>
+
+		<table 	width="200" class="table table-bordered table-hover table-striped">
+			<tr class="info">
+				<th>Tag</th>
+				<th>Output1</th>
+				<th>Output2</th>
+				<th>Output3</th>
+				<th>Output4</th>
+				<th>Output5</th>
+				<th>Output6</th>
+				<th>Output7</th>
+				<th>Output8</th>
+				<th>Output9</th>
+				<th>Output10</th>
+				<th>Output11</th>
+			</tr>
+			<tr>
+				{% for obj in objs %}
+				
+				<td>
+				{{obj.tag}}
+			</td>
+				<td>
+					{{obj.tag1}}
+				</td>
+				<td>
+					{{obj.tag2}}
+				</td>
+				<td>
+					{{obj.tag3}}
+				</td>
+				<td>
+					{{obj.tag4}}
+				</td>
+				<td>
+					{{obj.tag5}}
+				</td>
+				<td>
+					{{obj.tag6}}
+				</td>
+				<td>
+					{{obj.tag6}}
+				</td>
+				<td>
+					{{obj.tag7}}
+				</td>
+				<td>
+					{{obj.tag8}}
+				</td>
+				<td>
+					{{obj.tag9}}
+				</td>
+                <td>
+					{{obj.tag10}}
+				</td>
+
+					
+
+			<tr>
+				{% endfor %}
+
+		</table>
+			
+		</div> 
+</body>
+</html>

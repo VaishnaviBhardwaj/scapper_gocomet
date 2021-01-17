@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<center>
+	<h1>Home</h1>
+	<h2>
+	Eneter the tag which you want to Scrap from the Medium site</h2>
+
+
+</center>
+	<center>
+
+<form action=" " method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+
+
+    <h1>
+    	{{ output }}
+    </h1>
+</form>
+<h3>
+	After the search the output will shown in the form of table.</h3>
+</center>
+
+</body>
+</html>
+
